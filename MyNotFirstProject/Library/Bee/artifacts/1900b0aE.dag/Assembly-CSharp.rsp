@@ -358,6 +358,7 @@
 "Assets/scripts/EnableLight.cs"
 "Assets/scripts/Move.cs"
 "Assets/scripts/MoveSun.cs"
+"Assets/scripts/PlayerCtrl.cs"
 -langversion:9.0
 
 /deterministic

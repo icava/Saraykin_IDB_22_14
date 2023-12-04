@@ -36,4 +36,22 @@ public class Move : MonoBehaviour
     {
         
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.name == "Block")
+        {
+            _rb.AddForce(new Vector3(0, 1, 0) * _thrust);
+        }
+    }
+
+    private void OnTriggerStay(Collider other)
+    {
+        
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        
+    }
 }

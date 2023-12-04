@@ -59,6 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\scripts\EnableLight.cs" />
+    <Compile Include="Assets\scripts\PlayerCtrl.cs" />
     <Compile Include="Assets\scripts\ChangeColors.cs" />
     <Compile Include="Assets\scripts\MoveSun.cs" />
     <Compile Include="Assets\scripts\Move.cs" />
